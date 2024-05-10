@@ -95,8 +95,7 @@ class RAGAgent:
                 callbacks=[self.callback, FinalStreamingStdOutCallbackHandler()],
                 model_name=chosen_model,
                 temperature=0.0,
-                #openai_api_key= "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"
-                openai_api_key="sk-proj-caW5AbDBLBwwTmIF81v3T3BlbkFJoyA1d3tBYjoR55QBlEhh"
+                openai_api_key= "OPENAI_API_KEY"
             )
         '''
         

@@ -1,0 +1,2 @@
+MEMORY_KEY = "chat_history"
+NUM_MESSAGES_IN_MEMORY = 5
